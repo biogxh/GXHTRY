@@ -2,6 +2,10 @@ Name: Xiaohui Guo
 Date: 1/21/2020
 Time:10:24pm
 
+Quote from E.O. Wilson:
+
+"Scientists, I believe, are divided into two categories: those who do science in order to be a success in life, and those who become a success in life in order to do science. It is the latter who stay active in research for a lifetime."
+
 biogx@LAPTOP-35RUBMHC MINGW64 ~
 $ git init
 Initialized empty Git repository in C:/Users/biogx/.git/
