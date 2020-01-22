@@ -1,0 +1,61 @@
+biogx@LAPTOP-35RUBMHC MINGW64 ~
+$ git init
+Initialized empty Git repository in C:/Users/biogx/.git/
+
+biogx@LAPTOP-35RUBMHC MINGW64 ~ (master)
+$ git add x-cor.txt.txt
+
+biogx@LAPTOP-35RUBMHC MINGW64 ~ (master)
+$ git commit -m "repo."
+[master (root-commit) 702af6a] repo.
+ 1 file changed, 749 insertions(+)
+ create mode 100644 x-cor.txt.txt
+
+biogx@LAPTOP-35RUBMHC MINGW64 ~ (master)
+$ git remote add origin https://github.com/biogxh/repo.git
+
+biogx@LAPTOP-35RUBMHC MINGW64 ~ (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 1.18 KiB | 302.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/biogxh/repo.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+biogx@LAPTOP-35RUBMHC MINGW64 ~ (master)
+$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 637 bytes | 15.00 KiB/s, done.
+From https://github.com/biogxh/repo
+   702af6a..67ef45e  master     -> origin/master
+Updating 702af6a..67ef45e
+Fast-forward
+ x-cor.txt.txt | 10 ----------
+ 1 file changed, 10 deletions(-)
+
+biogx@LAPTOP-35RUBMHC MINGW64 ~ (master)
+$ git add y-cor.txt.txt
+
+biogx@LAPTOP-35RUBMHC MINGW64 ~ (master)
+$ git commit -m "repo."
+[master 10c79ee] repo.
+ 1 file changed, 749 insertions(+)
+ create mode 100644 y-cor.txt.txt
+
+biogx@LAPTOP-35RUBMHC MINGW64 ~ (master)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.27 KiB | 649.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/biogxh/repo.git
+   67ef45e..10c79ee  master -> master
