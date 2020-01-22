@@ -1,0 +1,1 @@
+ContraVirus is a rogue spyware application that poses as a legitimate anti-spyware program. The application uses a false scanner to force computer users to pay for the removal of non-existent spyware items. It may also be known as ExpertAntivirus
